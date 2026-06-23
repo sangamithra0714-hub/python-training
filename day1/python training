@@ -9,3 +9,173 @@ print(b)
 a=int(input())
 b=chr(a)
 print(b)
+
+a=10 
+if a<0:
+   print("Negative")
+elif a>0:
+    print("Positive")
+elif a==0:
+    print("Zero")
+else:
+    print("Invalid input")
+
+a="a"
+b=ord(a)
+if b>=65 and b<=90:
+  print("Uppercase")
+elif b>=97 and b<=122:
+   print("Lowercase")
+elif b>=48 and b<=56:
+   print("Digits")
+else:
+    print("Special character")
+    
+a=65
+b=chr(a)
+if b>= 'A' and b<= 'Z':
+   print("Uppercase")
+elif b>= 'a' and b<= 'z':
+    print("Lowercase")
+elif b>= '0' and b<= '9':
+    print("Digits")
+else:
+    print("Special character")
+
+a="hello world"
+b=10
+c=a+str( b)
+print(c)
+print(type(c))
+
+def evenorodd (a):
+    if a%2==0:
+        return "Even"
+    else:
+        return "Odd"
+print(evenorodd(int(input("Enter a number: "))))
+evenorodd=lambda a:"Even" if a%2==0 else "Odd"
+print(evenorodd(int(input("Enter a number: "))))
+
+a=4
+b=4
+c=4
+if a>b and a>c:
+   print("a is large")
+elif b>a and b>c:
+    print("b is large")
+elif c>a and c>b:
+    print("c is large")
+elif a==b and b==c:
+    print("All numbers are equal")
+else:
+    print("Invalid input")
+
+a=int(input())
+if a%400==0 or (a%4==0 and a%100!=0):
+    print("leap year")
+else:
+    print("not a leap year")
+
+n=3
+for i in range(1,n+1):
+    print("* "*i)
+
+a=10
+b=5.0
+c=a+b
+print(c)
+print(type(c))
+
+a=10
+b=11
+a,b=b,a
+print(a)
+print(b)
+
+a=12
+b=13
+a=b
+print("a=",a)
+a=12
+b=13
+b=a
+print("b=",b)
+
+a=10
+b=5
+a=a+b
+b=a-b
+a=a-b
+print("a=",a)
+print("b=",b)
+
+ a=10
+b=11
+a,b=b,a
+print(a)
+print(b)
+
+a=12
+b=13
+a=b
+print("a=",a)
+a=12
+b=13
+b=a
+print("b=",b)
+
+a=10
+b=5
+a=a+b
+b=a-b
+a=a-b
+print("a=",a)
+print("b=",b)
+
+a=10
+b=11
+a,b=b,a
+print(a)
+print(b)
+
+a=12
+b=13
+a=b
+print("a=",a)
+a=12
+b=13
+b=a
+print("b=",b)
+
+a=10
+b=5
+a=a+b
+b=a-b
+a=a-b
+print("a=",a)
+print("b=",b)
+
+a=10
+b=11
+a,b=b,a
+print(a)
+print(b)
+
+a=12
+b=13
+a=b
+print("a=",a)
+a=12
+b=13
+b=a
+print("b=",b)
+
+a=10
+b=5
+a=a+b
+b=a-b
+a=a-b
+print("a=",a)
+print("b=",b)
+   
