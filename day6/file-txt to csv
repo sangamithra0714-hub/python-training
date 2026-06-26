@@ -1,0 +1,9 @@
+import csv
+f=open("students.csv", "r") 
+reader = csv.reader(f)
+txtfile=open("students.txt", "w")
+for row in reader:
+    txtfile.write(" | ".join(row) + "\n")
+print("Data written to students.txt successfully")
+txtfile.close()
+f.close()
